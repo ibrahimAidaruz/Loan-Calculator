@@ -1,0 +1,85 @@
+body{
+  background-color: #F1F4F9;
+}
+.container{
+    width: 600px;
+    margin: 100px auto;
+    border-radius:  8px;
+    padding:10px 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    background: white;
+    gap: 5rem;
+}
+
+/* form styles */
+
+h4{
+    color: #07B6D5;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px 0;
+  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input{
+    width: 250px;
+    margin-bottom: 10px;
+    background: #F1F4F9;
+    border: 0;
+    outline: 0;
+}
+input, button{
+    padding: 8px;
+}
+
+button{
+    background-color:#07B6D5 ;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    width: 150px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* output styles */
+/* .output{
+    width: 200px;
+} */
+.h4{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 3px 0; */
+    margin-top: -5px;
+}
+
+.h3 {
+    font-size: 3.9rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 10px 0; */
+}
+
+.text{
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 1rem;
+display: flex;
+justify-content: space-between;
+padding: 5px 0;
+font-weight: 500;
+
+}
+.underline{
+    border-bottom:  1px solid gray;
+    /* margin-bottom: 5px; */
+}
